@@ -1,0 +1,4 @@
+<h3> {{ mylist.title }} </h3>
+	<div ng-repeat="item in mylist.list">
+		<li>{{ item }}</li>
+	</div>
