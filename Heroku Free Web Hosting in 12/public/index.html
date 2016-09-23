@@ -1,0 +1,30 @@
+<DOCTYPE html>
+
+	<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+	</head>
+	<body ng-app="ToDoList">
+
+		<div ng-controller="MainController">
+
+		<singlelist mylist="todo"></singlelist>
+			<input ng-model="addToDo">
+			<button ng-click="addItem(todo.list, addToDo)">Add This To-Do</button>
+
+			<singlelist mylist="books"></singlelist>
+			<input ng-model="addBook">
+			<button ng-click="addItem(books.list, addBook)">Add This</button>
+		</div>
+
+	<!-- Modules -->
+	<script type="text/javascript" src="js/app.js"></script>
+
+	<!-- Controllers -->
+	<script src="js/controllers/MainController.js"></script>
+
+	<!-- Directives -->
+	<script src="js/directives/singlelist.js"></script>
+
+</body>
+</html>
