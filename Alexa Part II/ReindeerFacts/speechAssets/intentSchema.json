@@ -1,0 +1,24 @@
+{
+	"intents" : [ {
+		"intent": "ReindeerIntent", 
+		"slots": [
+			{
+				"name": "Reindeer",
+				"type": "LIST_OF_REINDEER"
+			}
+		]
+	}, {
+		"intent" : "AMAZON.YesIntent"
+	}, {
+		"intent" : "AMAZON.NoIntent"
+	}, {
+		"intent" : "AMAZON.HelpIntent"
+	}, {
+		"intent" : "AMAZON.StopIntent"
+	}, {
+		"intent" : "AMAZON.CancelIntent"
+	}
+
+
+	]
+}

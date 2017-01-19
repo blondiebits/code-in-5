@@ -1,0 +1,8 @@
+ReindeerIntent {Reindeer}
+ReindeerIntent tell me about {Reindeer}
+ReindeerIntent talk about {Reindeer}
+ReindeerIntent tell me some facts about {Reindeer}
+AMAZON.HelpIntent tell me those reindeer names again
+AMAZON.HelpIntent tell me the reindeer names
+AMAZON.HelpIntent what are the reindeer names again
+AMAZON.HelpIntent what are the reindeer names
